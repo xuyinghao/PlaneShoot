@@ -7,6 +7,7 @@ import util.Tool;
  * 小鸟
  */
 public class Bird {
+    //图片
     static Image[] images;
 
     static {
