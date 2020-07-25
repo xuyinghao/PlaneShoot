@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <Label style="-fx-font-family: '等线 Light';" text="经典小游戏" textAlignment="CENTER" textFill="#0800e3" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets top="100.0" />
+         </BorderPane.margin>
+         <font>
+            <Font size="49.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <effect>
+            <Glow />
+         </effect>
+      </Label>
+   </top>
+   <center>
+      <Button fx:id="plane" defaultButton="true" graphicTextGap="0.0" mnemonicParsing="false" text="飞机大战" textAlignment="CENTER" textFill="#1a10d7" BorderPane.alignment="TOP_CENTER">
+         <BorderPane.margin>
+            <Insets top="150.0" />
+         </BorderPane.margin>
+         <font>
+            <Font name="System Bold" size="33.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+
+      </Button>
+
+   </center>
+   <bottom>
+      <Button defaultButton="true" graphicTextGap="0.0" mnemonicParsing="false" text="FlyBird" textAlignment="CENTER" textFill="#1a10d7" BorderPane.alignment="TOP_CENTER">
+         <BorderPane.margin>
+            <Insets bottom="150" />
+         </BorderPane.margin>
+         <font>
+            <Font name="System Bold" size="35.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+
+      </Button>
+   </bottom>
+</BorderPane>
